@@ -7,12 +7,14 @@
 	href="${pageContext.request.contextPath}/css/style.css" />
 </head>
 <body>
-	<h1>Welcome</h1>
-	<h2>${message}</h2>
 
 	<a href="${pageContext.request.contextPath}/">Home</a>
 	<a href="${pageContext.request.contextPath}/sticker-gallery">Sticker Gallery</a>
-	<a href="${pageContext.request.contextPath}/random">Random</a>
+	<a href="${pageContext.request.contextPath}/random-sticker-page">Random</a>
+	<br/>
+
+	<h1>${page_title}</h1>
+	<h2>${page_message}</h2>
 </body>
 
 </html>

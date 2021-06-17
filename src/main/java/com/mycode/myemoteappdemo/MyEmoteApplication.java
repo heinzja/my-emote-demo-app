@@ -1,4 +1,4 @@
-package com.mycode.myemoteapp;
+package com.mycode.myemoteappdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
